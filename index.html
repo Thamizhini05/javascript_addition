@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Click the button to enter the values</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let n1 = Number(prompt("value 1:","0"));
+  let n2 = Number(prompt("value 2:","0"));
+  let sum = n1+ n2;
+  if (n1 != null && n2 != null) {
+    document.getElementById("demo").innerHTML ="sum: "+sum;
+  }
+}
+</script>
+
+</body>
+</html>
